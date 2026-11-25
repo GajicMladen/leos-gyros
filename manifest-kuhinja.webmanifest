@@ -1,0 +1,26 @@
+{
+  "id": "/leos-gyros/kuhinja",
+  "name": "Leo's Gyros · Kuhinja",
+  "short_name": "Kuhinja",
+  "description": "Portal za kuhinju — Leo's Gyros",
+  "lang": "sr",
+  "start_url": "/leos-gyros/kuhinja",
+  "scope": "/leos-gyros/kuhinja",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#06243D",
+  "background_color": "#06243D",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

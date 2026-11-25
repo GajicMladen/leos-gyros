@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="sr" data-tenant="leosgyros">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+    <meta name="description" content="Poručite giros, burek specijal, krilca i knedle iz Leo's Gyros-a — Gajeva 1, Novi Sad. Svaki dan do 01:30." />
+    <meta name="theme-color" content="#FFFAEE" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Leo's Gyros" />
+    <link rel="icon" href="/leos-gyros/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/leos-gyros/apple-touch-icon.png" />
+    <title>Leo's Gyros · Novi Sad</title>
+    <style>
+      /* Splash painted before the JS bundle arrives (slow networks): brand colour + name, replaced by React. */
+      html, body, #root { height: 100%; margin: 0; }
+      body { background: var(--color-cream-100, #fff); }
+      .splash { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; color: var(--color-forest-800, #222); }
+      .splash-name { font-family: var(--font-display, sans-serif); font-weight: var(--display-weight, 400); font-size: calc(40px * var(--display-scale, 1)); letter-spacing: var(--display-tracking, 0.02em); text-transform: var(--display-case, none); }
+      .splash-sub { font: 600 12px -apple-system, BlinkMacSystemFont, system-ui, sans-serif; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.55; }
+    </style>
+  <style id="tenant-theme">
+ html[data-tenant="leosgyros"] {
+  --color-cream-50: #FFFFFF;
+  --color-cream-100: #FFFAEE;
+  --color-cream-200: #FBF0D3;
+  --color-cream-300: #F2E2B8;
+  --color-cream-400: #D9C595;
+  --color-azure-100: #FFF4CF;
+  --color-azure-200: #FFD963;
+  --color-azure-300: #F9C22E;
+  --color-azure-400: #E3A812;
+  --color-on-primary: #0A3352;
+  --color-forest-950: #04182A;
+  --color-forest-900: #06243D;
+  --color-forest-800: #0A3352;
+  --color-forest-700: #0F4469;
+  --color-forest-600: #1C5884;
+  --color-forest-500: #3B74A0;
+  --color-forest-400: #6B97BC;
+  --color-flame-100: #DDF0F9;
+  --color-flame-200: #A3D5EE;
+  --color-flame-500: #0A84BC;
+  --color-flame-600: #08719F;
+  --color-flame-700: #065C82;
+  --color-tomato-500: #D2462C;
+  --color-tomato-100: #FBE2DC;
+  --color-basil-500: #3E8F4F;
+  --color-basil-100: #E1F1E4;
+  --color-ink: #0D2A40;
+  --color-ink-2: #4E6478;
+  --color-ink-3: #8D9DAC;
+  --font-display: "Russo One", "Arial Black", sans-serif;
+  --display-scale: 0.74;
+  --display-tracking: 0.01em;
+  --display-case: uppercase;
+  --display-weight: 400;
+  --motif: url(/leos-gyros/motif.webp) 0 0 / 24px 36px repeat, linear-gradient(#FCEFCB, #FCEFCB);
+  --glass-bg: rgba(255, 250, 238, 0.82);
+ }
+/* self-hosted display font (latin + latin-ext for Serbian diacritics); /leos-gyros/ is filled in by vite.config.ts.
+   Russo One: straight, squared strokes close to the angular "Greek" lettering of the LEOS GYROS logo. */
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/leos-gyros/fonts/russo-one-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/leos-gyros/fonts/russo-one-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+    <link rel="preload" as="image" href="/leos-gyros/pizzas/giros.webp" />
+    <link rel="preload" as="image" href="/leos-gyros/logo.webp" />
+    <script type="module" crossorigin src="/leos-gyros/assets/main-BnyvsNET.js"></script>
+    <link rel="stylesheet" crossorigin href="/leos-gyros/assets/main-iKMdojV1.css">
+  <link rel="manifest" href="/leos-gyros/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/leos-gyros/registerSW.js"></script></head>
+  <body>
+    <div id="root"><div class="splash"><span class="splash-name">Leo's Gyros</span><span class="splash-sub">Učitavanje</span></div></div>
+  </body>
+</html>

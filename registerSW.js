@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/leos-gyros/sw.js', { scope: '/leos-gyros/' })})}
